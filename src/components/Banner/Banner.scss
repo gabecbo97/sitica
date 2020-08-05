@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .col{
     border: solid 1px black;
     width: 900px;
+    
+}
+.col-left{
+    margin-top: 100px;
+   
+}
+.col-right{
+    margin-top: 100px;
 }
 .card-body {
-    max-width: 500px;
+    max-width: 550px;
 }
 
 .card{
@@ -17,6 +31,7 @@
     border-radius: 10mm;
     border-color: transparent;
     height: 70px;
+    margin-top: 40px;
 
    
 }
@@ -25,8 +40,21 @@
     background: linear-gradient(90deg, rgba(151,39,211,1) 1%, rgba(242,189,251,1) 100%);
     color: white;
     margin-left: -100px;
+    margin-top: 40px;
     max-width: 100px;
     max-height: 50px;
     border: transparent;
     border-radius: 10mm;
 }
+
+.row h5{
+    color: gray;
+    font-weight: bold;
+    
+}
+.row h2{
+    margin-top: 40px;
+    
+   
+}
+

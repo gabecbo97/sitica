@@ -1,0 +1,26 @@
+.card {
+
+    max-width: 250px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 4mm;
+
+    img{
+        max-width: 100px;
+        align-self: center;
+}
+    h5{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    a{
+        background-color: transparent;
+        color: gray;
+        float: right;
+        margin-top: 10px;
+    }
+
+
+}

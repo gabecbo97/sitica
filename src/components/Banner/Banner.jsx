@@ -1,16 +1,18 @@
 import React from "react"
 import "./Banner.scss"
+import Card from "../Card/index"
 
 export default function Banner() {
     return (
         
             <div className="row">
-                <div className="col">
-                    <div className="row">
+                <div className="col col-left">
+                    <div className="row text-uppercase">
                         <h5>do you ever worry about</h5>
                     </div>
                     <div className="row">
                         <h2>We are going to launch <br/>
+                     
                         things thah helps to improve...</h2>
                         
                     </div>
@@ -30,20 +32,13 @@ export default function Banner() {
                                     
                                 </div>
                             </form>
-
-
-
                 </div>
 
-
-
-
-
-
-
-
-                <div className="col">
-                    2 of 2
+                <div className="col col-right">
+                    <Card 
+                    image ={require('../../images/logo.png')}
+                    title="Card title"
+                    description="Some quick example text to build on the card title and make up the bulk of the card's content."/>
     </div>
             </div>
         
