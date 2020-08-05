@@ -5,16 +5,20 @@
     font-family: 'Montserrat', sans-serif;
 }
 .col{
-    border: solid 1px black;
-    width: 900px;
+ 
+    width: auto;
     
 }
 .col-left{
     margin-top: 100px;
+    margin-left: -200px;
    
 }
 .col-right{
     margin-top: 100px;
+    margin-right: -100px;
+    
+   
 }
 .card-body {
     max-width: 550px;
@@ -32,6 +36,7 @@
     border-color: transparent;
     height: 70px;
     margin-top: 40px;
+    width: 470px;
 
    
 }
@@ -39,9 +44,9 @@
 .btn{
     background: linear-gradient(90deg, rgba(151,39,211,1) 1%, rgba(242,189,251,1) 100%);
     color: white;
-    margin-left: -100px;
-    margin-top: 40px;
-    max-width: 100px;
+    margin-left: 358px;
+    margin-top: -100px;
+    width: 100px;
     max-height: 50px;
     border: transparent;
     border-radius: 10mm;
@@ -56,5 +61,8 @@
     margin-top: 40px;
     
    
+}
+.col-card{
+    max-width: 239px;
 }
 
