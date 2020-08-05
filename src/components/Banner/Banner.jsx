@@ -21,11 +21,11 @@ export default function Banner() {
                                     </div>
                                     
                                     <div className="col" style={{borderColor:"transparent"}} >
-                                        <input className="form-control form-control-lg form-control-borderless" type="search" placeholder="Search topics or keywords"/>
+                                        <input className="form-control form-control-lg form-control-borderless" type="search" placeholder="Your email address"/>
                                     </div>
                                     
                                     <div className="col-auto">
-                                        <button className="btn btn-lg btn-success" type="submit">Search</button>
+                                        <button className="btn btn-lg " type="submit">Notify</button>
                                     </div>
                                     
                                 </div>

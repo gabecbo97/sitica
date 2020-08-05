@@ -11,5 +11,22 @@
     border: transparent;
 }
 .form-control {
+    -webkit-box-shadow: 4px 2px 34px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 4px 2px 34px 0px rgba(0,0,0,0.19);
+    box-shadow: 4px 2px 34px 0px rgba(0,0,0,0.19);
+    border-radius: 10mm;
+    border-color: transparent;
+    height: 70px;
+
+   
+}
+
+.btn{
+    background: linear-gradient(90deg, rgba(151,39,211,1) 1%, rgba(242,189,251,1) 100%);
+    color: white;
+    margin-left: -100px;
+    max-width: 100px;
+    max-height: 50px;
     border: transparent;
+    border-radius: 10mm;
 }
