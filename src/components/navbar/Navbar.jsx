@@ -7,7 +7,7 @@ function Nav() {
     return (
 
         <nav className="navbar navbar-expand-sm navbar-light" id="nav_bar">
-            <a class="navbar-brand" id="logo" href="#"><img src={logo} alt="logo"/></a>
+            <a className="navbar-brand" id="logo" href="#"><img src={logo} alt="logo"/></a>
             <ul className="navbar-nav" id="itens">
                 <li className="nav-item ">
                     <a className="nav-link" style={{color:"white"}} href="#">Home</a>

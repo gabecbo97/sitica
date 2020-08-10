@@ -4,12 +4,12 @@ import "./style.card.scss"
 function Card(props) {
     return (
 
-        <div class="card" >
-            <img class="card-img-top" src={props.image} alt="Card image cap" />
-            <div class="card-body">
-                <h5 class="card-title">{props.title}</h5>
-                <p class="card-text">{props.description}</p>
-                <a href={props.page} class="btn-primary">Details</a>
+        <div className="card" >
+            <img className="card-img-top" src= {props.image} alt={props.alt} />
+            <div className="card-body">
+                <h5 className="card-title">{props.title}</h5>
+                <p className="card-text">{props.description}</p>
+                <a href={props.page} className="btn-primary">Details</a>
             </div>
         </div>
 
